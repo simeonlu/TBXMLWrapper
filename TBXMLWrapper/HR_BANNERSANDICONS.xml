@@ -1,0 +1,54 @@
+<IBUT_XML ID="702" Name="HR_BANNERSANDICONS" Timestamp="2014-10-10 16:35:21" Version="L1.6R0C">
+  <Banners>
+    <Banner>
+      <Image Lang="en-us" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829074543.jpg"/>
+      <Url Lang="en-us"/>
+      <Image Lang="zh-hk" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829074543_c.jpg"/>
+      <Url Lang="zh-hk"/>
+    </Banner>
+    <Banner>
+      <Image Lang="en-us" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829075237.jpg"/>
+      <Url Lang="en-us"/>
+      <Image Lang="zh-hk" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829075237_c.jpg"/>
+      <Url Lang="zh-hk"/>
+    </Banner>
+    <Banner>
+      <Image Lang="en-us" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829074543.jpg"/>
+      <Url Lang="en-us"/>
+      <Image Lang="zh-hk" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829074543_c.jpg"/>
+      <Url Lang="zh-hk"/>
+    </Banner>
+    <Banner>
+      <Image Lang="en-us" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829075237.jpg"/>
+      <Url Lang="en-us"/>
+      <Image Lang="zh-hk" Path="/infoB/Tablet_iOS/ad_banners/banner_20140829075237_c.jpg"/>
+      <Url Lang="zh-hk"/>
+    </Banner>
+  </Banners>
+  <IconList>
+    <BetTypeIcons>
+      <Icon Lang="en-us" Path="/infoB/Tablet_iOS/icons/icon_20141010110304.png">
+        <Displays>
+          <Display Pool="F-F" RaceNo="3" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="5" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="7" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="9" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="11" Venue="Local"/>
+        </Displays>
+      </Icon>
+      <Icon Lang="zh-hk" Path="/infoB/Tablet_iOS/icons/icon_20141010110258_c.png">
+        <Displays>
+          <Display Pool="F-F" RaceNo="3" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="5" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="7" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="9" Venue="Local"/>
+          <Display Pool="F-F" RaceNo="11" Venue="Local"/>
+        </Displays>
+      </Icon>
+    </BetTypeIcons>
+    <JackpotIcons>
+      <Icon Lang="zh-hk" Path="/infoB/Tablet_iOS/icons/jackpot_icon_zh-hk.png"/>
+      <Icon Lang="en-us" Path="/infoB/Tablet_iOS/icons/jackpot_icon_en-us.png"/>
+    </JackpotIcons>
+  </IconList>
+</IBUT_XML>

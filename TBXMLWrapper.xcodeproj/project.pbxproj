@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0F0FBB1A26D4D20080850E /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F0FBA1A26D4D20080850E /* Banner.swift */; };
+		DB0F0FBF1A26F7FD0080850E /* RawDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F0FBE1A26F7FD0080850E /* RawDataHandler.swift */; };
+		DB2C75E01A257BBF005E7950 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2C75DD1A257BBF005E7950 /* TBXML.m */; };
+		DB2C75E11A257BBF005E7950 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2C75DE1A257BBF005E7950 /* TBXML+Compression.m */; };
+		DB2C75E21A257BBF005E7950 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2C75DF1A257BBF005E7950 /* TBXML+HTTP.m */; };
+		DB2C75E81A258683005E7950 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2C75E71A258683005E7950 /* libz.dylib */; };
+		DB2C75F41A25BACB005E7950 /* TBXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2C75F31A25BACB005E7950 /* TBXMLParser.m */; };
+		DB7FD8A41A248E0F004DED06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7FD8A31A248E0F004DED06 /* AppDelegate.swift */; };
+		DB7FD8A61A248E0F004DED06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7FD8A51A248E0F004DED06 /* ViewController.swift */; };
+		DB7FD8A91A248E0F004DED06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7FD8A71A248E0F004DED06 /* Main.storyboard */; };
+		DB7FD8AB1A248E0F004DED06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7FD8AA1A248E0F004DED06 /* Images.xcassets */; };
+		DB7FD8AE1A248E0F004DED06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB7FD8AC1A248E0F004DED06 /* LaunchScreen.xib */; };
+		DB7FD8BA1A248E10004DED06 /* TBXMLWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7FD8B91A248E10004DED06 /* TBXMLWrapperTests.swift */; };
+		DB7FD8CB1A248F57004DED06 /* XMLMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7FD8CA1A248F57004DED06 /* XMLMapper.swift */; };
+		DB8F2CA41A27099400E887D5 /* HR_BANNERSANDICONS.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB8F2CA31A27099400E887D5 /* HR_BANNERSANDICONS.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB7FD8B41A248E10004DED06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB7FD8961A248E0F004DED06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7FD89D1A248E0F004DED06;
+			remoteInfo = TBXMLWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0F0FBA1A26D4D20080850E /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		DB0F0FBE1A26F7FD0080850E /* RawDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawDataHandler.swift; sourceTree = "<group>"; };
+		DB2C75DA1A257BA4005E7950 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		DB2C75DB1A257BA4005E7950 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		DB2C75DC1A257BA4005E7950 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		DB2C75DD1A257BBF005E7950 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		DB2C75DE1A257BBF005E7950 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		DB2C75DF1A257BBF005E7950 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		DB2C75E71A258683005E7950 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DB2C75EF1A258C99005E7950 /* TBXMLWrapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBXMLWrapper-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB2C75F21A25BACB005E7950 /* TBXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXMLParser.h; sourceTree = "<group>"; };
+		DB2C75F31A25BACB005E7950 /* TBXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXMLParser.m; sourceTree = "<group>"; };
+		DB7FD89E1A248E0F004DED06 /* TBXMLWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBXMLWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7FD8A21A248E0F004DED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7FD8A31A248E0F004DED06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB7FD8A51A248E0F004DED06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB7FD8A81A248E0F004DED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB7FD8AA1A248E0F004DED06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB7FD8AD1A248E0F004DED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB7FD8B31A248E10004DED06 /* TBXMLWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBXMLWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7FD8B81A248E10004DED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7FD8B91A248E10004DED06 /* TBXMLWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBXMLWrapperTests.swift; sourceTree = "<group>"; };
+		DB7FD8CA1A248F57004DED06 /* XMLMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLMapper.swift; sourceTree = "<group>"; };
+		DB8F2CA31A27099400E887D5 /* HR_BANNERSANDICONS.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HR_BANNERSANDICONS.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7FD89B1A248E0F004DED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2C75E81A258683005E7950 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7FD8B01A248E10004DED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0F0FBC1A26D4D90080850E /* DataModes */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F0FBA1A26D4D20080850E /* Banner.swift */,
+				DB0F0FBE1A26F7FD0080850E /* RawDataHandler.swift */,
+			);
+			name = DataModes;
+			sourceTree = "<group>";
+		};
+		DB0F0FBD1A26D4EE0080850E /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C75F21A25BACB005E7950 /* TBXMLParser.h */,
+				DB2C75F31A25BACB005E7950 /* TBXMLParser.m */,
+				DB7FD8CA1A248F57004DED06 /* XMLMapper.swift */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		DB7FD8951A248E0F004DED06 = {
+			isa = PBXGroup;
+			children = (
+				DB7FD8A01A248E0F004DED06 /* TBXMLWrapper */,
+				DB7FD8B61A248E10004DED06 /* TBXMLWrapperTests */,
+				DB7FD89F1A248E0F004DED06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7FD89F1A248E0F004DED06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7FD89E1A248E0F004DED06 /* TBXMLWrapper.app */,
+				DB7FD8B31A248E10004DED06 /* TBXMLWrapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7FD8A01A248E0F004DED06 /* TBXMLWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C75DD1A257BBF005E7950 /* TBXML.m */,
+				DB2C75DE1A257BBF005E7950 /* TBXML+Compression.m */,
+				DB2C75DF1A257BBF005E7950 /* TBXML+HTTP.m */,
+				DB2C75DA1A257BA4005E7950 /* TBXML.h */,
+				DB2C75DB1A257BA4005E7950 /* TBXML+Compression.h */,
+				DB2C75DC1A257BA4005E7950 /* TBXML+HTTP.h */,
+				DB7FD8A31A248E0F004DED06 /* AppDelegate.swift */,
+				DB7FD8A51A248E0F004DED06 /* ViewController.swift */,
+				DB8F2CA31A27099400E887D5 /* HR_BANNERSANDICONS.xml */,
+				DB0F0FBD1A26D4EE0080850E /* Parser */,
+				DB0F0FBC1A26D4D90080850E /* DataModes */,
+				DB7FD8A71A248E0F004DED06 /* Main.storyboard */,
+				DB7FD8AA1A248E0F004DED06 /* Images.xcassets */,
+				DB7FD8AC1A248E0F004DED06 /* LaunchScreen.xib */,
+				DB7FD8A11A248E0F004DED06 /* Supporting Files */,
+			);
+			path = TBXMLWrapper;
+			sourceTree = "<group>";
+		};
+		DB7FD8A11A248E0F004DED06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB7FD8A21A248E0F004DED06 /* Info.plist */,
+				DB2C75EF1A258C99005E7950 /* TBXMLWrapper-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB7FD8B61A248E10004DED06 /* TBXMLWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB7FD8B91A248E10004DED06 /* TBXMLWrapperTests.swift */,
+				DB7FD8B71A248E10004DED06 /* Supporting Files */,
+			);
+			path = TBXMLWrapperTests;
+			sourceTree = "<group>";
+		};
+		DB7FD8B71A248E10004DED06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2C75E71A258683005E7950 /* libz.dylib */,
+				DB7FD8B81A248E10004DED06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB7FD89D1A248E0F004DED06 /* TBXMLWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7FD8BD1A248E10004DED06 /* Build configuration list for PBXNativeTarget "TBXMLWrapper" */;
+			buildPhases = (
+				DB7FD89A1A248E0F004DED06 /* Sources */,
+				DB7FD89B1A248E0F004DED06 /* Frameworks */,
+				DB7FD89C1A248E0F004DED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBXMLWrapper;
+			productName = TBXMLWrapper;
+			productReference = DB7FD89E1A248E0F004DED06 /* TBXMLWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB7FD8B21A248E10004DED06 /* TBXMLWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7FD8C01A248E10004DED06 /* Build configuration list for PBXNativeTarget "TBXMLWrapperTests" */;
+			buildPhases = (
+				DB7FD8AF1A248E10004DED06 /* Sources */,
+				DB7FD8B01A248E10004DED06 /* Frameworks */,
+				DB7FD8B11A248E10004DED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7FD8B51A248E10004DED06 /* PBXTargetDependency */,
+			);
+			name = TBXMLWrapperTests;
+			productName = TBXMLWrapperTests;
+			productReference = DB7FD8B31A248E10004DED06 /* TBXMLWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7FD8961A248E0F004DED06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = simeon;
+				TargetAttributes = {
+					DB7FD89D1A248E0F004DED06 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DB7FD8B21A248E10004DED06 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DB7FD89D1A248E0F004DED06;
+					};
+				};
+			};
+			buildConfigurationList = DB7FD8991A248E0F004DED06 /* Build configuration list for PBXProject "TBXMLWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB7FD8951A248E0F004DED06;
+			productRefGroup = DB7FD89F1A248E0F004DED06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7FD89D1A248E0F004DED06 /* TBXMLWrapper */,
+				DB7FD8B21A248E10004DED06 /* TBXMLWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB7FD89C1A248E0F004DED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7FD8A91A248E0F004DED06 /* Main.storyboard in Resources */,
+				DB7FD8AE1A248E0F004DED06 /* LaunchScreen.xib in Resources */,
+				DB8F2CA41A27099400E887D5 /* HR_BANNERSANDICONS.xml in Resources */,
+				DB7FD8AB1A248E0F004DED06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7FD8B11A248E10004DED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7FD89A1A248E0F004DED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2C75E11A257BBF005E7950 /* TBXML+Compression.m in Sources */,
+				DB7FD8A61A248E0F004DED06 /* ViewController.swift in Sources */,
+				DB2C75E01A257BBF005E7950 /* TBXML.m in Sources */,
+				DB7FD8CB1A248F57004DED06 /* XMLMapper.swift in Sources */,
+				DB0F0FBF1A26F7FD0080850E /* RawDataHandler.swift in Sources */,
+				DB2C75F41A25BACB005E7950 /* TBXMLParser.m in Sources */,
+				DB0F0FBB1A26D4D20080850E /* Banner.swift in Sources */,
+				DB7FD8A41A248E0F004DED06 /* AppDelegate.swift in Sources */,
+				DB2C75E21A257BBF005E7950 /* TBXML+HTTP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7FD8AF1A248E10004DED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7FD8BA1A248E10004DED06 /* TBXMLWrapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB7FD8B51A248E10004DED06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7FD89D1A248E0F004DED06 /* TBXMLWrapper */;
+			targetProxy = DB7FD8B41A248E10004DED06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB7FD8A71A248E0F004DED06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7FD8A81A248E0F004DED06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB7FD8AC1A248E0F004DED06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7FD8AD1A248E0F004DED06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7FD8BB1A248E10004DED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB7FD8BC1A248E10004DED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB7FD8BE1A248E10004DED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = TBXMLWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/simeon/Desktop/test/test/TBXMLWrapper/TBXMLWrapper/TBXMLWrapper-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		DB7FD8BF1A248E10004DED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = TBXMLWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/simeon/Desktop/test/test/TBXMLWrapper/TBXMLWrapper/TBXMLWrapper-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DB7FD8C11A248E10004DED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TBXMLWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBXMLWrapper.app/TBXMLWrapper";
+			};
+			name = Debug;
+		};
+		DB7FD8C21A248E10004DED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TBXMLWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBXMLWrapper.app/TBXMLWrapper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7FD8991A248E0F004DED06 /* Build configuration list for PBXProject "TBXMLWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7FD8BB1A248E10004DED06 /* Debug */,
+				DB7FD8BC1A248E10004DED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7FD8BD1A248E10004DED06 /* Build configuration list for PBXNativeTarget "TBXMLWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7FD8BE1A248E10004DED06 /* Debug */,
+				DB7FD8BF1A248E10004DED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7FD8C01A248E10004DED06 /* Build configuration list for PBXNativeTarget "TBXMLWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7FD8C11A248E10004DED06 /* Debug */,
+				DB7FD8C21A248E10004DED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7FD8961A248E0F004DED06 /* Project object */;
+}
